@@ -12,7 +12,7 @@ const styles = StyleSheet.create({
         resizeMode: 'contain'
     },
     title:{
-        fontFamily:"Poppins_400Regular",
+        fontFamily:'Poppins_400Regular',
         color:"#fff",
         fontSize:20,
         lineHeight: 30,
@@ -52,7 +52,7 @@ const styles = StyleSheet.create({
         lineHeight:20,
         maxWidth:140,
         marginTop:40,
-    }
+    },
 });
 
 export default styles;
