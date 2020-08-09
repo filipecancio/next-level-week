@@ -18,7 +18,7 @@ function Landing(){
                 <img src={landingImage} className="hero-image"/>
                 
 
-                <div className="buttons-continer">
+                <div className="buttons-container">
                     <a href="" className="study">
                         <img src={studyIcon} />
                         Estudar
