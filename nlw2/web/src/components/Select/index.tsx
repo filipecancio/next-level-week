@@ -16,7 +16,7 @@ const Select: React.FunctionComponent<SelectProps> = ({ label, name, options, ..
         <div className="select-block">
             <label htmlFor={name}>{label}</label>
             <select defaultValue="" id={name} {...rest}>
-                <option value="" disabled hidden>Seleciona uma opção</option>
+                <option value="" disabled hidden>Selecione</option>
 
                 {options.map(option => {
                     return <option key={option.value} value={option.value}>{option.label}</option>
