@@ -8,23 +8,27 @@ function TeacherItem(){
     return (
         <article className="teacher-item">
             <header>
-                <img src="https://avatars3.githubusercontent.com/u/13178261?s=460&u=a4096072f66f48c990bda1c373b96257370cf52e&v=4" alt="Filipe Câncio"/>
+                <img src="https://avatars3.githubusercontent.com/u/54639269?s=460&u=105433cc3bec327295b08511619ab716d7b87cf5&v=4" alt="Pedro Queiroz"/>
                 <div>
-                    <strong>Filipe Câncio</strong>
-                    <span>Desenvolvedor Web</span>
+                    <strong>Pedro Queiroz</strong>
+                    <span>Physics</span>
                 </div>
             </header>
             <p>
-                Técnico em Eletromecânica e Estudante de Sistemas de Informação no IFBA Vitória da Conquista, desenvolvedor web e ilustrador.
+                The branch of science concerned with the nature and properties 
+                of matter and energy. The subject matter of physics, distinguished 
+                from that of chemistry and biology, includes mechanics, heat, 
+                light and other radiation, sound, electricity, magnetism, and 
+                the structure of atoms.
             </p>
             <footer>
                 <p>
-                    Preço/Hora
-                    <strong>R$ 100,00</strong>
+                    Price/Hour
+                    <strong>R$ 80,00</strong>
                 </p>
                 <button type="button">
                     <img src={whatsappIcon} alt="Whatsapp"/>
-                    Contato
+                    Contact
                 </button>
             </footer>
         </article>
